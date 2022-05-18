@@ -1,6 +1,6 @@
 > Update: You should use `ipfs://` instead of `https://ipfs.io/` for your tokenURI
 
-# nft-mix
+# C-Block: Marketplace for carbon-credit NFTs from forestry projects
 
 <br/>
 <p align="center">
