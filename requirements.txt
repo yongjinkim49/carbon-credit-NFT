@@ -1,2 +1,1 @@
-eth-brownie
-python-dotenv
+eth-brownie>=1.10.0,<2.0.0
