@@ -1,6 +1,5 @@
-> Update: You should use `ipfs://` instead of `https://ipfs.io/` for your tokenURI
 
-# C-Block: Marketplace for carbon-credit NFTs from forestry projects
+# C-Block: Marketplace for carbon-credit NFTs Fractions from forestry projects
 
 <h1 align="center">
   
@@ -11,7 +10,7 @@
   </h4>
 </div>
 <p><font size="3">
-This Repo is desgiend to serve as a platform for the development of a decentralised market place for Carbon Credit transactions. Our aim behind the project is to have a decentralised, democratic and transparent platform where farmrers, landowners may interact with Large industries and institutional investors interested in the voluntary carbon capture projects.  
+This Repository is a platform for the development of a DApp marketplace for Carbon Credit NFT fractions. Our goal is to have a decentralized, trustless, and transparent marketplace where farmers and landowners have access to a bigger market share and more opportunities.
   
   <h1 align="center">
   
@@ -20,7 +19,8 @@ This Repo is desgiend to serve as a platform for the development of a decentrali
   </h4>
 </div>
 <p><font size="3">
-Carbon offsets in a Nut Shell, is the reduction or removal of emissions of carbon dioxide or other greenhouse gases made in order to compensate for emissions made elsewhere. Broad Picture, it allows industries to reduce their overall carbon footprint by investing in projects that can offer measurable Carbon Capture from the environment. 
+  
+In a Nutshell, Carbon offsets is the reduction or removal of emissions of carbon dioxide or other greenhouse gases created in order to compensate for emissions made elsewhere. Broader picture, it allows industries to reduce their overall carbon footprint by investing in projects that can offer measurable Carbon Capture from the environment. 
     
   <h1 align="center">
   
@@ -36,14 +36,20 @@ Carbon offsets in a Nut Shell, is the reduction or removal of emissions of carbo
 </div>
 <p><font size="3">
 
-Our solution to challenge the existing highly centralised marketplace is to implement a decentralised protocol as shown above. THe landowners could come to our platform with their projects. A DAO of auditors and domain experts would analyse the credibility of the project. Once a significant majority is reached, the project would be minted as a ERC 721 NFT compatible with the Ethereum blockchain. A deterministic (decided by the DAO) number of ERC 20 tokens would be minted for each project. These ERC 20 token would represent a unit portion of the Carbon Capturd by the Project. Industries / Institutions / Individuals would then b able to buy these ERC20 tokens represnting a unit of Carbon Offset.  
+
+Our solution is to challenge the existing market players and eliminate intermediaries. This is done by the creation of a decentralized marketplace as demonstrated above. With this project, we have the current protocol players:
+  - The farmers/ landowners will have a go-to protocol to present their lots
+  - A decentralized autonomous organizations (DAO) will be formed by set of auditors in order to present, find, propose, and vote for lots
+  - Pollutors are the actual end-users who will demand/ buy carbon credits as fractions of NFTs
   
+Based on the above, the project will be minted as a ERC 721 NFT compatible with the Ethereum blockchain. A deterministic (decided by the DAO) number of ERC 20 tokens will be minted for each project. These ERC20 tokens would represent a unit portion of the Carbon Capturd by the Project. Industries / Institutions / Individuals will be able to buy these ERC20 tokens representing a unit of Carbon Offset.  
+
     
 ## Prerequisites
 
-Please install or have installed the following:
+Install the following:
 
-- Nodejs and npm
+- Nodejs, npm, pipx, yarn, and hardhat
 - Python
 - Brownie 
 
@@ -54,7 +60,7 @@ There are 2 types of NFTs here.
 1. `SimpleCollectibles.sol`
 2. `AdvancedCollectibles.sol`
 
-The simple collectibles work on a local network,  however the advanced requires a testnet. We default to rinkeby since that seems to be the testing standard for NFT platforms. You will need testnet rinkeby ETH and testnet Rinkeby LINK. You can find faucets for both in the [Chainlink documentation](https://docs.chain.link/docs/link-token-contracts#rinkeby). 
+The simple collectibles work on a local network, however the advanced requires a testnet. We default to rinkeby since that seems to be the testing standard for NFT platforms. You will need testnet rinkeby ETH and testnet Rinkeby LINK. You can find faucets for both in the [Chainlink documentation](https://docs.chain.link/docs/link-token-contracts#rinkeby). 
 
 # We will use the Advanced Collections contract implementation. Each project is associated with an NFT, containing an image and a json file. This json file contains:
   - informations relative to the asset: 
@@ -87,7 +93,7 @@ brownie run scripts/advanced_collectible/set_tokenuri.py --network rinkeby
 
 ## Resources Used
 
-The project is created in parts towards the submission for the Chainlink Hackathon. A great thanks to Patrick Collins and the whole Chainlink Hackathon team for the essential tutorials and support provided during the project execution. 
+The project is created in parts for the submission of the Chainlink Hackathon. A great thanks to Patrick Collins and the whole Chainlink Hackathon team for the essential tutorials and support provided during the project execution. 
 
 * [Chainlink Documentation](https://docs.chain.link/docs)
 * [Chainlink Hackathon Discord](https://discord.gg/2YHSAey
