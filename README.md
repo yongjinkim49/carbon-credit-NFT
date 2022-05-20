@@ -30,7 +30,13 @@ In a Nutshell, Carbon offsets is the reduction or removal of emissions of carbon
     
   <h1 align="center">
   
-  ![image](https://drive.google.com/uc?export=view&id=1T0axKQpcUirAld_vUQIfSO8_8ow3myJM)
+  ![image](https://drive.google.com/uc?export=view&id=1csoSuH-r4chefz4xfpMfNUeBXVe0typl)
+
+  </h4>
+    
+  <h1 align="center">
+  
+  ![image](https://drive.google.com/uc?export=view&id=1wfObw7mFrq9fMmkYQ7E9CVGaqOYF3v4Z)
 
   </h4>
 </div>
@@ -62,7 +68,7 @@ There are 2 types of NFTs here.
 
 The simple collectibles work on a local network, however the advanced requires a testnet. We default to rinkeby since that seems to be the testing standard for NFT platforms. You will need testnet rinkeby ETH and testnet Rinkeby LINK. You can find faucets for both in the [Chainlink documentation](https://docs.chain.link/docs/link-token-contracts#rinkeby). 
 
-# We will use the Advanced Collections contract implementation. Each project is associated with an NFT, containing an image and a json file. This json file contains:
+We will use the Advanced Collections contract implementation. Each project is associated with an NFT, containing an image and a json file. This json file contains:
   - informations relative to the asset: 
     - geolocation
     - type of project 
@@ -116,6 +122,18 @@ You'll need [testnet Rinkeby](https://faucet.rinkeby.io/) and [testnet LINK](htt
 ```
 brownie run scripts/governance_standard/deploy_and_run_for_proposals.py --network rinkeby
 ```
+
+## The Path Ahead
+Though, we have made substantial progress towards our end goal of a decentralised Carbon Credit Marketplace, there is still 'Miles to go'. Some of the updates / initiatives that we have in the works - 
+* Implementing collaboration with off chain and other on chain Carbon Credit Marketplace to further improve the liquidity within the Market. 
+* To plan for the future - We understand the current voluntary Carbon Credit Market will grow substantially if not exponentially in the coming future. This would call for the current model to expnand to ther avenues of Carbon Capture, say industrial carbon capture, renewable energy projects, advanced technological projects.
+* Since, the active Carbon Capture projects could be highly volatile in terms of actual output. We need to implement a methodology to source, manage and create a pool or repository of Carbon Credits to cover any potential shortfall in production. 
+
+  <h1 align="center">
+  
+  ![image](https://drive.google.com/uc?export=view&id=1UCpQn7Cb-843Uiwee69sD6rwGlGlLTHz)
+
+  </h4>  
   
 ## Resources Used
 
