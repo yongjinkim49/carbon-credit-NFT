@@ -93,7 +93,7 @@ brownie run scripts/advanced_collectible/set_tokenuri.py --network rinkeby
 
 # DAO-C-Block: Marketplace for carbon-credit NFTs Fractions from forestry projects
 
- Link for the DAO github repository:  [DAO Code](https://github.com/TarekMohammad1/DAO-ESG-Chainlink)
+ Link for our C-Block DAO github repository:  [DAO Code](https://github.com/TarekMohammad1/DAO-ESG-Chainlink)
   
 As Web3 and the blockchain bleed more and more into the mainstream, new acronyms get thrown around regularly with little explanation as to what they mean, including this one: DAO.    
 
