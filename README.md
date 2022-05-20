@@ -127,7 +127,19 @@ You'll need [testnet Rinkeby](https://faucet.rinkeby.io/) and [testnet LINK](htt
 brownie run scripts/governance_standard/deploy_and_run_for_proposals.py --network rinkeby
 ```
 
-## The Path Ahead
+# Front-end UI for DAO members / Protocol managers / End-users (pollutors)
+We also created an interface to provide a high-level overview of the innerworkings of our protocol. We have three interfaces intended for three differen players (participants) of our protocol. We list them in order: t
+  
+- Interface 1: intended for DAO members' decision making process and consensus, 
+- Interface 2: for the protocol managers to observe and assess the decisions from DAO
+- Interface 3: a marketplace interface for the end-users for our protocol, i.e. polluters such as Microsoft, Google, etc
+  
+ Please refer to our repository below for more detail: [Interface Base] https://github.com/XiaorenY/carbon_block_dapp
+
+ The interface will be extended to incorporate more user-friendly features and functionalities.
+  
+  
+# The Path Ahead
 Though, we have made substantial progress towards our end goal of a decentralised Carbon Credit Marketplace, there is still 'Miles to go'. Some of the updates / initiatives that we have in the works - 
 * Implementing collaboration with off chain and other on chain Carbon Credit Marketplace to further improve the liquidity within the Market. 
 * To plan for the future - We understand the current voluntary Carbon Credit Market will grow substantially if not exponentially in the coming future. This would call for the current model to expnand to ther avenues of Carbon Capture, say industrial carbon capture, renewable energy projects, advanced technological projects.
@@ -139,7 +151,7 @@ Though, we have made substantial progress towards our end goal of a decentralise
 
   </h4>  
   
-## Resources Used
+# Resources Used
 
 The project is created in parts for the submission of the Chainlink Hackathon. A great thanks to Patrick Collins and the whole Chainlink Hackathon team for the essential tutorials and support provided during the project execution. 
 
