@@ -134,7 +134,7 @@ We also created an interface to provide a high-level overview of the innerworkin
 - Interface 2: for the protocol managers to observe and assess the decisions from DAO
 - Interface 3: a marketplace interface for the end-users for our protocol, i.e. polluters such as Microsoft, Google, etc
   
- Please refer to our repository below for more detail: [Interface Base] https://github.com/XiaorenY/carbon_block_dapp
+ Please refer to our repository below for more detail: [Interface Base](https://github.com/XiaorenY/carbon_block_dapp)
 
  The interface will be extended to incorporate more user-friendly features and functionalities.
   
