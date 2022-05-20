@@ -36,7 +36,7 @@ Carbon offsets in a Nut Shell, is the reduction or removal of emissions of carbo
 </div>
 <p><font size="3">
 
-Our solution to challnge the existing highly centralised marketplace is to implement a decentralised protocol as shown above. THe landowners could come to our platform with their projects. A DAO of auditors and domain experts would analyse the credibility of the project. Once a significant majority is reached, the project would be minted as a ERC 721 NFT compatible with the Ethereum blockchain. A deterministic (decided by the DAO) number of ERC 20 tokens would be minted for each project. These ERC 20 token would represent a unit portion of the Carbon Capturd by the Project. Industries / Institutions / Individuals would then b able to buy these ERC20 tokens represnting a unit of Carbon Offset.  
+Our solution to challenge the existing highly centralised marketplace is to implement a decentralised protocol as shown above. THe landowners could come to our platform with their projects. A DAO of auditors and domain experts would analyse the credibility of the project. Once a significant majority is reached, the project would be minted as a ERC 721 NFT compatible with the Ethereum blockchain. A deterministic (decided by the DAO) number of ERC 20 tokens would be minted for each project. These ERC 20 token would represent a unit portion of the Carbon Capturd by the Project. Industries / Institutions / Individuals would then b able to buy these ERC20 tokens represnting a unit of Carbon Offset.  
   
     
 ## Prerequisites
@@ -56,8 +56,23 @@ There are 2 types of NFTs here.
 
 The simple collectibles work on a local network,  however the advanced requires a testnet. We default to rinkeby since that seems to be the testing standard for NFT platforms. You will need testnet rinkeby ETH and testnet Rinkeby LINK. You can find faucets for both in the [Chainlink documentation](https://docs.chain.link/docs/link-token-contracts#rinkeby). 
 
-# We will use the Advanced Collections contract implementation. 
+# We will use the Advanced Collections contract implementation. Each project is associated with an NFT, containing an image and a json file. This json file contains:
+  - informations relative to the asset: 
+    - geolocation
+    - type of project 
+    - soil main composition
+    - main type of trees
+    - ...
+  
+  - informations relative to the ERC20 tokens that will be traded as "shares" of this asset:
+    - ERC20 token address
+    - ERC20 token total supply
+    - ERC20 token decimals
 
+Inforamtions relative to the asset are randomly generated from a database of event we have build. They will be expanded with the addition of real projects.
+  
+---
+  
 You'll need [testnet Rinkeby](https://faucet.rinkeby.io/) and [testnet LINK](https://rinkeby.chain.link/) in the wallet associated with your private key. 
 
 ```
