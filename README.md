@@ -28,12 +28,16 @@ In a Nutshell, Carbon offsets is the reduction or removal of emissions of carbon
 
 ## Infrastructure / Solution / Approach
     
+We first provide a comparison of the status quo processes and our solution at a high-level. The current process is slow, costly, and limited to a small number of players. There is no set standard of auditing and thereby the process takes months to years until it reaches the end-users (i.e. polluters). The status quo method, even for recent blockchain solutions for this maintain the "offset first & HOPE end-users will by years later" business model. This is a GREAT obstacle in growing the market and allowing it to reach full potential in scale and liquidity. Our blockchain based NFT-fractioning system with a new model tackles this shortcomings effectively. This is elaborated in the following image.
+    
   <h1 align="center">
   
   ![image](https://drive.google.com/uc?export=view&id=1csoSuH-r4chefz4xfpMfNUeBXVe0typl)
 
   </h4>
     
+We do maintain the retirement system of carbon-credits. However, we do so in a near-concurrent manner such that the polluters pay for the carbon-credits AT THE SAME TIME, it is being offset. This allows more landlords to take part, creating a positive cycle in growing the market and pulling in more customers into the protocol. As this is concurrent, there is always a moral hazard issue. We effectively tackle this through domain expert opinions on the DAO consensus process and the month-delay payment system to the landlords and auditors. The payment will be held on our protocol for such set time period outlined by our smart contracts and so utimately deliver them the payment once the the landlords have satisfied their contracts in maintaining project integrity.     
+
   <h1 align="center">
   
   ![image](https://drive.google.com/uc?export=view&id=1wfObw7mFrq9fMmkYQ7E9CVGaqOYF3v4Z)
@@ -43,7 +47,7 @@ In a Nutshell, Carbon offsets is the reduction or removal of emissions of carbon
 <p><font size="3">
 
 
-Our solution is to challenge the existing market players and eliminate intermediaries. This is done by the creation of a decentralized marketplace as demonstrated above. With this project, we have the current protocol players:
+To summarzie our solution is to challenge the existing market players and eliminate intermediaries. This is done by the creation of a decentralized marketplace as demonstrated above. With this project, we have the current protocol players:
   - The farmers/ landowners will have a go-to protocol to present their lots
   - A decentralized autonomous organizations (DAO) will be formed by set of auditors in order to present, find, propose, and vote for lots
   - Pollutors are the actual end-users who will demand/ buy carbon credits as fractions of NFTs
