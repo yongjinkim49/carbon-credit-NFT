@@ -156,7 +156,7 @@ Though, we have made substantial progress towards our end goal of a decentralise
 The project is created in parts for the submission of the Chainlink Hackathon. A great thanks to Patrick Collins and the whole Chainlink Hackathon team for the essential tutorials and support provided during the project execution. 
 
 * [Chainlink Documentation](https://docs.chain.link/docs)
-* [Chainlink Hackathon Discord](https://discord.gg/2YHSAey
+* [Chainlink Hackathon Discord](https://discord.gg/2YHSAey)
 * Check out the [Chainlink documentation](https://docs.chain.link/docs) to get started from any level of smart contract engineering. 
 * Check out the other [Brownie mixes](https://github.com/brownie-mix/) that can be used as a starting point for your own contracts. They also provide example code to help you get started.
 * ["Getting Started with Brownie"](https://medium.com/@iamdefinitelyahuman/getting-started-with-brownie-part-1-9b2181f4cb99) is a good tutorial to help you familiarize yourself with Brownie.
