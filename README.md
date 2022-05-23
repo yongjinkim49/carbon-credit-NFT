@@ -28,7 +28,7 @@ In a Nutshell, Carbon offsets is the reduction or removal of emissions of carbon
 
 ## Infrastructure / Solution / Approach
     
-We first provide a comparison of the status quo processes and our solution at a high-level. The current process is slow, costly, and limited to a small number of players. There is no set standard of auditing and thereby the process takes months to years until it reaches the end-users (i.e. polluters). The status quo method, even for recent blockchain solutions for this maintain the "offset first & HOPE end-users will by years later" business model. This is a GREAT obstacle in growing the market and allowing it to reach full potential in scale and liquidity. Our blockchain based NFT-fractioning system with a new model tackles this shortcomings effectively. This is elaborated in the following image.
+We first provide a comparison of the status quo processes and our solution at a high-level. The current process is slow, costly, and limited to a small number of players. There is no set standard of auditing and thereby the process takes months to years until it reaches the end-users (i.e. polluters). The status quo method, even for recent blockchain solutions for this maintain the "offset first & HOPE end-users will buy years later" business model. This is a GREAT obstacle in growing the market and allowing it to reach full potential in scale and liquidity. Our blockchain based NFT-fractioning system with a new model tackles this shortcomings effectively. This is elaborated in the following image.
     
   <h1 align="center">
   
