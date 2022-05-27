@@ -10,7 +10,7 @@
   </h4>
 </div>
 <p><font size="3">
-This Repository is a platform for the development of a DApp marketplace for Carbon Credit NFT fractions. Our goal is to have a decentralized, trustless, and transparent marketplace where farmers and landowners have access to a bigger market share and more opportunities.
+This repository is a platform for the development of a marketplace dApp for carbon-credit NFT fractions. Our goal is to create a decentralized, trustless, and transparent marketplace where farmers and landowners have access to a bigger market share and more opportunities in a concurrent manner.
   
   <h1 align="center">
   
@@ -20,7 +20,7 @@ This Repository is a platform for the development of a DApp marketplace for Carb
 </div>
 <p><font size="3">
   
-In a Nutshell, Carbon offsets is the reduction or removal of emissions of carbon dioxide or other greenhouse gases created in order to compensate for emissions made elsewhere. Broader picture, it allows industries to reduce their overall carbon footprint by investing in projects that can offer measurable Carbon Capture from the environment. 
+In a nutshell, "carbon offsets" refers to the reduction or removal of emissions of carbon dioxide or other greenhouse gases created in order to compensate for emissions made elsewhere. In a broader picture, it allows industries to reduce their overall carbon footprint by investing in projects that can offer measurable carbon capture from the environment. 
     
   <h1 align="center">
   
@@ -28,7 +28,7 @@ In a Nutshell, Carbon offsets is the reduction or removal of emissions of carbon
 
 ## Infrastructure / Solution / Approach
     
-We first provide a comparison of the status quo processes and our solution at a high-level. The current process is slow, costly, and limited to a small number of players. There is no set standard of auditing and thereby the process takes months to years until it reaches the end-users (i.e. polluters). The status quo method, even for recent blockchain solutions for this maintain the "offset first & HOPE end-users will buy years later" business model. This is a GREAT obstacle in growing the market and allowing it to reach full potential in scale and liquidity. Our blockchain based NFT-fractioning system with a new model tackles this shortcomings effectively. This is elaborated in the following image.
+We first provide a comparison of the status quo processes and our solution at a high-level. The current process is slow, costly, and limited to a small number of players. There is no set standard of auditing and thereby the process takes months to years until it reaches the end-users (i.e. polluters). The status quo method, even for recent blockchain solutions for this maintain the "offset first & HOPE end-users will buy years later" business model. This is a GREAT obstacle in growing the market in scale and liquidity. Our blockchain based NFT-fractioning system with a new model tackles this shortcomings effectively allowing concurrent carbon offset and payment. This is elaborated in the following image.
     
   <h1 align="center">
   
@@ -36,7 +36,7 @@ We first provide a comparison of the status quo processes and our solution at a 
 
   </h4>
     
-We do maintain the retirement system of carbon-credits. However, we do so in a near-concurrent manner such that the polluters pay for the carbon-credits AT THE SAME TIME, it is being offset. This allows more landlords to take part, creating a positive cycle in growing the market and pulling in more customers into the protocol. As this is concurrent, there is always a moral hazard issue. We effectively tackle this through domain expert opinions on the DAO consensus process and the month-delay payment system to the landlords and auditors. The payment will be held on our protocol for such set time period outlined by our smart contracts and so utimately deliver them the payment once the the landlords have satisfied their contracts in maintaining project integrity.     
+Our project still sticks to the carbon-credit retirement system used in traditional methods. However, we do so in a near-concurrent manner such that the polluters pay for the carbon-credits AT THE SAME TIME, it is being offset. This allows more landlords to take part, creating a positive cycle in growing the market and pulling in more customers into the protocol. As this is concurrent, there is always a moral hazard issue. We effectively tackle this through domain expert opinions on the DAO consensus process and the month-delay payment system to the landlords and auditors. The payment will be held on our protocol for such set time period outlined by our smart contracts and so utimately deliver them the payment once the the landlords have satisfied their contracts in maintaining project integrity.     
 
   <h1 align="center">
   
@@ -47,12 +47,12 @@ We do maintain the retirement system of carbon-credits. However, we do so in a n
 <p><font size="3">
 
 
-To summarzie our solution is to challenge the existing market players and eliminate intermediaries. This is done by the creation of a decentralized marketplace as demonstrated above. With this project, we have the current protocol players:
+To summarzie our solution is to challenge the existing market players and eliminate intermediaries. This is done by creating a decentralized marketplace as demonstrated above. In this project, we have the following protocol players:
   - The farmers/ landowners will have a go-to protocol to present their lots
   - A decentralized autonomous organizations (DAO) will be formed by set of auditors in order to present, find, propose, and vote for lots
   - Pollutors are the actual end-users who will demand/ buy carbon credits as fractions of NFTs
   
-Based on the above, the project will be minted as a ERC 721 NFT compatible with the Ethereum blockchain. A deterministic (decided by the DAO) number of ERC 20 tokens will be minted for each project. These ERC20 tokens would represent a unit portion of the Carbon Capturd by the Project. Industries / Institutions / Individuals will be able to buy these ERC20 tokens representing a unit of Carbon Offset.  
+The projects submitted by farmers/landowners (if approved by the DAO) will be minted as a ERC 721 NFT compatible on the Ethereum blockchain. A deterministic (decided by the DAO) number of ERC 20 tokens will be minted for each project along with its initial list price. These ERC20 tokens would represent a unit portion of the carbon captured by each respective roject. Industries / institutions / individuals will be able to buy these ERC20 tokens representing a unit of carbon offset.  
 
     
 ## Prerequisites
@@ -85,7 +85,7 @@ We will use the Advanced Collections contract implementation. Each project is as
     - ERC20 token total supply
     - ERC20 token decimals
 
-Inforamtions relative to the asset are randomly generated from a database of event we have build. They will be expanded with the addition of real projects.
+Inforamtion related to the asset are randomly generated from a database of event we have build. They will be expanded with the addition of real projects.
   
 ---
   
@@ -128,7 +128,7 @@ brownie run scripts/governance_standard/deploy_and_run_for_proposals.py --networ
 ```
 
 # Front-end UI for DAO members / Protocol managers / End-users (pollutors)
-We also created an interface to provide a high-level overview of the innerworkings of our protocol. We have three interfaces intended for three differen players (participants) of our protocol. We list them in order: t
+We also created an interface to provide a high-level overview of the innerworkings of our protocol. We have three interfaces intended for three differen players (participants) of our protocol. We list them in order:
   
 - Interface 1: intended for DAO members' decision making process and consensus, 
 - Interface 2: for the protocol managers to observe and assess the decisions from DAO
@@ -140,7 +140,7 @@ We also created an interface to provide a high-level overview of the innerworkin
   
   
 # The Path Ahead
-Though, we have made substantial progress towards our end goal of a decentralised Carbon Credit Marketplace, there is still 'Miles to go'. Some of the updates / initiatives that we have in the works - 
+Though, we have made substantial progress towards our end goal of a decentralised Carbon Credit Marketplace, there are still 'Miles to go'. Some of the updates / initiatives that we have in the works - 
 * Implementing collaboration with off chain and other on chain Carbon Credit Marketplace to further improve the liquidity within the Market. 
 * To plan for the future - We understand the current voluntary Carbon Credit Market will grow substantially if not exponentially in the coming future. This would call for the current model to expnand to ther avenues of Carbon Capture, say industrial carbon capture, renewable energy projects, advanced technological projects.
 * Since, the active Carbon Capture projects could be highly volatile in terms of actual output. We need to implement a methodology to source, manage and create a pool or repository of Carbon Credits to cover any potential shortfall in production. 
@@ -153,7 +153,7 @@ Though, we have made substantial progress towards our end goal of a decentralise
   
 # Resources Used
 
-The project is created in parts for the submission of the Chainlink Hackathon. A great thanks to Patrick Collins and the whole Chainlink Hackathon team for the essential tutorials and support provided during the project execution. 
+The project is created in part for the submission of the Chainlink Hackathon. A great thanks to Patrick Collins and the whole Chainlink Hackathon team for the essential tutorials and support provided during the project execution. 
 
 * [Chainlink Documentation](https://docs.chain.link/docs)
 * [Chainlink Hackathon Discord](https://discord.gg/2YHSAey)
