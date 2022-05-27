@@ -1,5 +1,5 @@
 
-# C-Block: Marketplace for carbon-credit NFTs Fractions from forestry projects
+# C-Block: Marketplace for Carbon-credit NFT Fractions from Forestry Projects
 
 <h1 align="center">
   
